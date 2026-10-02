@@ -1,0 +1,27 @@
+# 运行期数据（用户证书库，不入库）
+data/
+
+# 构建产物
+build/
+*.spec
+
+# 自检报告
+selftest_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 说明：以下内容需要入库
+#   assets/      应用图标（由 tools/make_icon.py 生成，但需要随仓库分发）
+#   docs/shots/  README 效果图
+#   history/     历史版本 exe 留档
